@@ -74,7 +74,8 @@ let config = generateConfig(
     entry: {
       'app': ['./src/main' /* this is filled by the aurelia-webpack-plugin */],
       'aurelia-bootstrap': coreBundles.bootstrap,
-      'aurelia': coreBundles.aurelia.filter(pkg => coreBundles.bootstrap.indexOf(pkg) === -1)
+      'aurelia': coreBundles.aurelia.filter(pkg => coreBundles.bootstrap.indexOf(pkg) === -1),
+      'aurelia-syncfusion-bridge': ['aurelia-syncfusion-bridge']
     },
     output: {
       path: outDir,
