@@ -64,7 +64,9 @@
   "homepage": "https://github.com/aurelia/skeleton-navigation#readme",
   "aurelia": {
     "build": {
-      "resources": []
+      "resources": [
+        "aurelia-syncfusion-bridge/button/button"
+      ]
     }
   },
   "dependencies": {
@@ -79,6 +81,7 @@
     "aurelia-polyfills": "^1.1.1",
     "aurelia-route-recognizer": "^1.1.0",
     "aurelia-router": "^1.0.7",
+    "aurelia-syncfusion-bridge": "^0.5.0",
     "aurelia-templating-binding": "^1.1.0",
     "aurelia-templating-resources": "^1.2.0",
     "aurelia-templating-router": "^1.0.0",
@@ -87,7 +90,8 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "isomorphic-fetch": "^2.2.1",
-    "jquery": "^3.1.1"
+    "jquery": "^3.1.1",
+    "syncfusion-javascript": "^15.1.37"
   },
   "devDependencies": {
     "@easy-webpack/config-aurelia": "^2.2.2",
@@ -98,7 +102,7 @@
     "@easy-webpack/config-env-development": "^2.1.5",
     "@easy-webpack/config-env-production": "^3.0.0",
     "@easy-webpack/config-external-source-maps": "^3.1.0",
-    "@easy-webpack/config-fonts-and-images": "^2.1.0",
+    "@easy-webpack/config-fonts-and-images": "^3.1.0",
     "@easy-webpack/config-generate-index-html": "^2.1.1",
     "@easy-webpack/config-global-bluebird": "^2.1.0",
     "@easy-webpack/config-global-jquery": "^2.1.0",
