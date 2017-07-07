@@ -26,6 +26,8 @@
     "e2e": "gulp serve e2e"
   },
   "devDependencies": {
+    "@types/ej.web.all": "^15.2.3",
+    "@types/jquery": "^3.2.6",
     "aurelia-bundler": "^0.4.0",
     "aurelia-protractor-plugin": "^1.0.0",
     "aurelia-tools": "^1.0.0",
